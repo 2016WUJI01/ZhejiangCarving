@@ -31,6 +31,11 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     "bootstrap-vue/nuxt",
   ],
+  styleResources: {
+    scss: [
+      "./assets/style/*.scss", // 自己项目中的样式文件的路径
+    ],
+  },
 
   /*
    ** Server Middleware
