@@ -15,7 +15,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ["@/assets/style/common.less"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -31,11 +31,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     "bootstrap-vue/nuxt",
   ],
-  styleResources: {
-    scss: [
-      "./assets/style/*.scss", // 自己项目中的样式文件的路径
-    ],
-  },
+  styleResources: {},
 
   /*
    ** Server Middleware
@@ -47,7 +43,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   server: {
-    port: 3000,
     host: "0.0.0.0",
+    port: 3000,
   },
 };
