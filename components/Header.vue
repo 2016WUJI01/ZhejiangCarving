@@ -1,6 +1,6 @@
 <template>
-  <div id="header">
-    <div class="container">
+  <div class="header">
+    <div class="container top">
       <div class="header-left">
         <div class="title">The Art of Carving</div>
         <p>in Zhejiang Overseas Interactive Exhibition</p>
@@ -11,8 +11,17 @@
         <div>Sign in</div>
       </div>
     </div>
-    <hr id="hr" />
-    <div>Home</div>
+    <hr class="hr" />
+    <div class="container bottom">
+      <div>Home</div>
+      <div>>></div>
+      <div>Carving Bone Inlay Wood Carving</div>
+
+      <div>Visit</div>
+      <div>Craft and Collectibles</div>
+      <div>Artists</div>
+      <div>Support us</div>
+    </div>
   </div>
 </template>
 
@@ -22,12 +31,16 @@ export default {};
 
 <style lang="less">
 @import "~/assets/style/common.less";
-#header {
+.header {
   background-color: #d8d2c3;
+  height: 179px;
 }
 
-#container {
+.top {
+  height: 132px;
+  padding-top: 30px;
   .header-left {
+    float: left;
     .title {
       font-weight: 800;
       font-size: 55px;
@@ -42,10 +55,14 @@ export default {};
   }
 
   .header-right {
+    float: right;
   }
 }
 
-#hr {
+.hr {
   margin: 0 10px;
+}
+
+.bottom {
 }
 </style>
