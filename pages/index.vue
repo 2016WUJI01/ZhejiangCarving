@@ -1,17 +1,5 @@
 <template>
-  <div>
-    <div>{{ test }}:{{ message }}</div>
-  </div>
+  <div>indexPage</div>
 </template>
 
-<script>
-export default {
-  name: "IndexPage",
-  data() {
-    return {
-      test: "test1",
-      message: "message",
-    };
-  },
-};
-</script>
+<script></script>
