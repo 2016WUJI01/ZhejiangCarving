@@ -4,13 +4,14 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["plugin:vue/essential", "standard", "prettier"],
+  extends: ['plugin:vue/essential', 'standard', 'prettier'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    parser: '@typescript-eslint/parser',
+    sourceType: 'module',
   },
-  plugins: ["vue", "prettier"],
+  plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
-    "prettier/prettier": 1,
+    'prettier/prettier': 1,
   },
-};
+}
