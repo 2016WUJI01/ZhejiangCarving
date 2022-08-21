@@ -23,12 +23,12 @@
     </div>
     <hr class="hr" />
     <div class="container bottom flex__container">
-      <div class="bottom-left flex__container flex">
+      <div class="bottom-left flex__container float-left">
         <div class="bottom-left-item">Home</div>
         <div class="bottom-left-item">>></div>
         <div class="bottom-left-item">Carving Bone Inlay Wood Carving</div>
       </div>
-      <div class="bottom-right flex__container">
+      <div class="bottom-right flex__container float-right">
         <div class="bottom-right-item">Visit</div>
         <div class="bottom-right-item">Craft and Collectibles</div>
         <div class="bottom-right-item">Artists</div>
