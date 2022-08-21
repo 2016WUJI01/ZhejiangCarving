@@ -2,42 +2,55 @@
   <div class="header">
     <div class="container top">
       <div class="header-left">
-        <div class="title">The Art of Carving</div>
-        <p>in Zhejiang Overseas Interactive Exhibition</p>
+        <div class="title font-BigShouldersStencilDisplay">
+          The Art of Carving
+        </div>
+        <div class="sub-title font-RobotoSlab">
+          in Zhejiang Overseas Interactive Exhibition
+        </div>
       </div>
-      <div class="header-right">
-        <div>Search</div>
-        <div>Donate</div>
-        <div>Sign in</div>
+      <div class="header-right flex__container">
+        <div class="header-right-item flex__container">
+          <img src="~/assets/images/icon_search.png" class="header-icon" />
+          Search
+        </div>
+        <div class="header-right-item flex__container">
+          <img src="~/assets/images/icon_donate.png" class="header-icon" />
+          Donate
+        </div>
+        <div class="header-right-item flex__container">Sign in</div>
       </div>
     </div>
     <hr class="hr" />
-    <div class="container bottom">
-      <div>Home</div>
-      <div>>></div>
-      <div>Carving Bone Inlay Wood Carving</div>
-
-      <div>Visit</div>
-      <div>Craft and Collectibles</div>
-      <div>Artists</div>
-      <div>Support us</div>
+    <div class="container bottom flex__container">
+      <div class="bottom-left flex__container flex">
+        <div class="bottom-left-item">Home</div>
+        <div class="bottom-left-item">>></div>
+        <div class="bottom-left-item">Carving Bone Inlay Wood Carving</div>
+      </div>
+      <div class="bottom-right flex__container">
+        <div class="bottom-right-item">Visit</div>
+        <div class="bottom-right-item">Craft and Collectibles</div>
+        <div class="bottom-right-item">Artists</div>
+        <div class="bottom-right-item">Support us</div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style lang="less">
-@import "~/assets/style/common.less";
+@import '~/assets/style/common.less';
 .header {
   background-color: #d8d2c3;
   height: 179px;
 }
 
 .top {
-  height: 132px;
+  height: 100px;
   padding-top: 30px;
   .header-left {
     float: left;
@@ -47,22 +60,36 @@ export default {};
       line-height: 55px;
     }
 
-    .p {
-      font-size: 16px;
+    .sub-title {
+      font-size: 18px;
       font-weight: 500;
-      line-height: 16px;
+      line-height: 18px;
     }
   }
 
   .header-right {
     float: right;
+
+    .header-right-item {
+      .header-icon {
+        height: 38px;
+        width: 38px;
+      }
+
+      margin-left: 10px;
+      height: 40px;
+      width: 100px;
+    }
   }
 }
 
 .hr {
-  margin: 0 10px;
+  margin: 0 0 10px 10px;
 }
 
 .bottom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
