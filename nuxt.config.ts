@@ -1,15 +1,16 @@
-import { defineNuxtConfig } from "nuxt";
+import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   serverMiddleware: [
     {
-      path: "/api",
-      handler: "~/server/index.ts",
+      path: '/api',
+      handler: '~/server/index.ts',
     },
   ],
+  modules: ['bootstrap-vue/nuxt'],
   server: {
     port: 3000,
-    host: "0.0.0.0",
+    host: '0.0.0.0',
   },
-});
+})
