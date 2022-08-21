@@ -47,7 +47,6 @@ export default {}
 .header {
   background-color: #d8d2c3;
   height: 179px;
-  margin-bottom: 5px;
 }
 
 .top {

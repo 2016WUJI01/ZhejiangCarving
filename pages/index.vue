@@ -2,4 +2,13 @@
   <div></div>
 </template>
 
-<script></script>
+<script lang="ts">
+export default {
+  setup() {
+    return {}
+  },
+  mounted() {
+    this.$router.push('/homePage')
+  },
+}
+</script>
