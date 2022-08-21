@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="container top">
-      <div class="header-left">
+      <div class="header-left float-left">
         <div class="title font-BigShouldersStencilDisplay">
           The Art of Carving
         </div>
@@ -9,7 +9,7 @@
           in Zhejiang Overseas Interactive Exhibition
         </div>
       </div>
-      <div class="header-right flex__container">
+      <div class="header-right flex__container float-right">
         <div class="header-right-item flex__container">
           <img src="~/assets/images/icon_search.png" class="header-icon" />
           Search
@@ -53,7 +53,6 @@ export default {}
   height: 100px;
   padding-top: 30px;
   .header-left {
-    float: left;
     .title {
       font-weight: 800;
       font-size: 55px;
@@ -68,8 +67,6 @@ export default {}
   }
 
   .header-right {
-    float: right;
-
     .header-right-item {
       .header-icon {
         height: 38px;
