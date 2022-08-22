@@ -3,7 +3,7 @@
     <div class="container top">
       <div class="footer-top">
         <div class="content left">
-          <div class="title">Visit</div>
+          <div class="title font-BigShouldersDisplay">Visit</div>
           <p>Bone Inlay Wood Carving</p>
           <p>DongYang Wood CarvingVisit</p>
           <p>Mud Gold acquerware</p>
@@ -11,14 +11,14 @@
           <p>Qingtian Stone Sculpture</p>
         </div>
         <div class="content mid">
-          <div class="title">Resources</div>
+          <div class="title font-BigShouldersDisplay">Resources</div>
           <p>Collection Donation</p>
           <p>Masterpieces by Famous Artists</p>
           <p>Circulating Collection</p>
           <p>Lost and Found</p>
         </div>
         <div class="content right">
-          <div class="title">Our work</div>
+          <div class="title font-BigShouldersDisplay">Our work</div>
           <p>Contact us</p>
           <p>Retrive your password</p>
         </div>
@@ -26,12 +26,12 @@
 
       <div class="footer-bottom">
         <div class="content left">
-          <div class="title">Commercial</div>
+          <div class="title font-BigShouldersDisplay">Commercial</div>
           <p>Launch</p>
           <p>Offline Collection Festival</p>
         </div>
         <div class="content mid">
-          <div class="title">Research</div>
+          <div class="title font-BigShouldersDisplay">Research</div>
           <p>Expert interpretation</p>
           <p>Visit Notes Report</p>
           <p>Lecture Forum</p>
@@ -43,7 +43,7 @@
       <div>COOKIES</div>
       <div>ACCESSIBILITY STATEMENT</div>
       <div>TERM OF USE</div>
-      <div>@2022浙江雕刻艺术</div>
+      <div class="logo">@2022浙江雕刻艺术</div>
     </div>
   </div>
 </template>
@@ -56,16 +56,12 @@ export default {}
 @import '~/assets/style/common.less';
 .footer {
   background-color: #d8d2c3;
-  height: 576px;
+  height: 606px;
   position: relative;
 }
 
 .top {
-  position: absolute;
-  // left: 9.25%;
-  // right: 19.53%;
-  // top: 9.55%;
-  // bottom: 30.73%;
+  height: 496px;
   .footer-top {
     height: 290px;
     .content {
@@ -77,7 +73,6 @@ export default {}
       .title {
         font-weight: 700;
         font-size: 36px;
-        font-family: Big Shoulders Display;
         line-height: 43.09px;
       }
       p {
@@ -98,7 +93,6 @@ export default {}
       .title {
         font-weight: 700;
         font-size: 36px;
-        font-family: Big Shoulders Display;
         line-height: 43.09px;
       }
       p {
@@ -111,14 +105,28 @@ export default {}
   }
 }
 
-.hr {
-  margin: 0 10px;
-}
-
 .bottom {
-  width: 100%;
   height: 80px;
-  margin-left: 0;
+  width: 100%;
+  margin: 0;
+
+  justify-content: left;
   background-color: rgba(0, 0, 0, 0.1);
+  .logo {
+    font-size: 'Roboto Slab';
+    weight: 400;
+    size: 18px;
+    line-height: 23.74px;
+    margin-left: 23.18%;
+  }
+  div {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: normal;
+    weight: 700;
+    size: 16px;
+    line-height: 18.75px;
+    margin-left: 136px;
+  }
 }
 </style>
