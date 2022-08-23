@@ -1,29 +1,17 @@
-# Nuxt 3 Minimal Starter
-
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-## Setup
+## Steps
 
-Make sure to install the dependencies:
+1. cd /ZhejiangCarving/
 
-```bash
-# yarn
-yarn install
+2. npm install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
+3. npm run dev
 
 ## Development Server
 
 Start the development server on http://localhost:3000
 
-```bash
-npm run dev
-```
 
 ## Production
 
