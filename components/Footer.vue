@@ -39,7 +39,7 @@
       </div>
     </div>
     <div class="container bottom">
-      <div>PRIVACY POLICY</div>
+      <div class="indent" type="Navigation Bar - Button">PRIVACY POLICY</div>
       <div>COOKIES</div>
       <div>ACCESSIBILITY STATEMENT</div>
       <div>TERM OF USE</div>
@@ -55,6 +55,8 @@ export default {}
 <style lang="less">
 @import '~/assets/style/common.less';
 .footer {
+  margin: 0;
+  padding: 0;
   background-color: #d8d2c3;
   height: 606px;
   position: relative;
@@ -68,7 +70,6 @@ export default {}
       width: 400px;
       display: block;
       float: left;
-      top: 55px;
       margin-right: 126px;
       .title {
         font-weight: 700;
@@ -109,24 +110,28 @@ export default {}
   height: 80px;
   width: 100%;
   margin: 0;
-
+  // left: -130px;
+  // position: absolute;
   justify-content: left;
   background-color: rgba(0, 0, 0, 0.1);
   .logo {
-    font-size: 'Roboto Slab';
+    font-size: Roboto Slab;
     weight: 400;
     size: 18px;
     line-height: 23.74px;
-    margin-left: 23.18%;
+    margin-left: 700px;
+  }
+  .indent {
+    margin-left: 136px;
   }
   div {
-    font-family: 'Roboto';
+    font-family: Roboto;
     text-transform: uppercase;
     font-style: normal;
     weight: 700;
     size: 16px;
     line-height: 18.75px;
-    margin-left: 136px;
+    margin-left: 30px;
   }
 }
 </style>
