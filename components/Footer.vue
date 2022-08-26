@@ -109,11 +109,9 @@ export default {}
 .bottom {
   height: 80px;
   width: 100%;
-  margin: 0;
-  // left: -130px;
-  // position: absolute;
   justify-content: left;
   background-color: rgba(0, 0, 0, 0.1);
+  margin: 0;
   .logo {
     font-size: Roboto Slab;
     weight: 400;
