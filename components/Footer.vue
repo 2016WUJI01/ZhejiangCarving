@@ -61,15 +61,22 @@
 }
 .footer-top {
   .flex__inline;
+  padding: 56px 40px 0 0;
 
   .footer-top-item {
-    width: 400px;
+    width: 350px;
   }
   .footer-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 43.09px;
     .font-BigShouldersDisplay;
+  }
+  .p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    .font-RobotoSlab;
   }
 }
 
