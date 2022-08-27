@@ -8,7 +8,8 @@ export default defineNuxtConfig({
       handler: '~/server/index.ts',
     },
   ],
-  modules: ['bootstrap-vue/nuxt'],
+  css: ['~/assets/style/common.less'],
+
   server: {
     port: 3000,
     host: '0.0.0.0',
