@@ -1,37 +1,37 @@
 <template>
   <div class="header">
     <div class="container">
-      <div class="top">
-        <div class="top-left">
-          <div class="title">The Art of Carving</div>
-          <div class="sub-title">
+      <div class="header-top">
+        <div class="header-top-left">
+          <div class="header-title">The Art of Carving</div>
+          <div class="sub-header-title">
             in Zhejiang Overseas Interactive Exhibition
           </div>
         </div>
-        <div class="top-right">
-          <div class="top-right-item">
+        <div class="header-top-right">
+          <div class="header-top-right-item">
             <img src="~/assets/images/icon_search.png" class="header-icon" />
             Search
           </div>
-          <div class="top-right-item">
+          <div class="header-top-right-item">
             <img src="~/assets/images/icon_donate.png" class="header-icon" />
             Donate
           </div>
-          <div class="top-right-item">Sign in</div>
+          <div class="header-top-right-item">Sign in</div>
         </div>
       </div>
       <hr class="hr" />
-      <div class="bottom">
-        <div class="bottom-left">
-          <div class="bottom-left-item">Home</div>
-          <div class="bottom-left-item">>></div>
-          <div class="bottom-left-item">Carving Bone Inlay Wood Carving</div>
+      <div class="header-bottom">
+        <div class="header-bottom-left">
+          <div>Home</div>
+          <div>>></div>
+          <div>Carving Bone Inlay Wood Carving</div>
         </div>
-        <div class="bottom-right">
-          <div class="bottom-right-item">Visit</div>
-          <div class="bottom-right-item">Craft and Collectibles</div>
-          <div class="bottom-right-item">Artists</div>
-          <div class="bottom-right-item">Support us</div>
+        <div class="header-bottom-right">
+          <div>Visit</div>
+          <div>Craft and Collectibles</div>
+          <div>Artists</div>
+          <div>Support us</div>
         </div>
       </div>
     </div>
@@ -49,20 +49,20 @@ export default {}
   height: 179px;
 }
 
-.top {
+.header-top {
   height: 100px;
   padding-top: 30px;
-  .top-left {
+  .header-top-left {
     .float-left;
 
-    .title {
+    .header-title {
       font-weight: 800;
       font-size: 55px;
       line-height: 55px;
       .font-BigShouldersDisplay;
     }
 
-    .sub-title {
+    .sub-header-title {
       font-size: 18px;
       font-weight: 500;
       line-height: 18px;
@@ -70,11 +70,11 @@ export default {}
     }
   }
 
-  .top-right {
+  .header-top-right {
     .float-right;
     .flex__inlineCenter;
 
-    .top-right-item {
+    .header-top-right-item {
       .flex__inlineCenter;
 
       margin-left: 10px;
@@ -88,17 +88,16 @@ export default {}
     }
   }
 }
-
 .hr {
   margin: 0 0 10px 10px;
 }
-
-.bottom {
-  .bottom-left {
+.header-bottom {
+  .header-bottom-left {
     .float-left;
     .flex__inline;
+    height: auto;
   }
-  .bottom-right {
+  .header-bottom-right {
     .float-right;
     .flex__inline;
   }
