@@ -76,7 +76,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;
-    .font-RobotoSlab;
+    font-family: 'Roboto Slab', serif;
   }
 }
 
