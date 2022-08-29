@@ -1,1 +1,1 @@
-<template>searchPage</template>
+<template><div>searchPage</div></template>
