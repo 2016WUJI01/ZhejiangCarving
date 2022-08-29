@@ -11,7 +11,7 @@
         <div class="header-top-right">
           <div class="header-top-right-item">
             <img src="~/assets/images/icon_search.png" class="header-icon" />
-            Search
+            <NuxtLink to="/Search">Search</NuxtLink>
           </div>
           <div class="header-top-right-item">
             <img src="~/assets/images/icon_donate.png" class="header-icon" />
