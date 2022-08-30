@@ -3,10 +3,12 @@
     <div class="container">
       <div class="header-top">
         <div class="header-top-left">
-          <div class="header-title">The Art of Carving</div>
-          <div class="sub-header-title">
-            in Zhejiang Overseas Interactive Exhibition
-          </div>
+          <NuxtLink to="/HomePage">
+            <div class="header-title">The Art of Carving</div>
+            <div class="sub-header-title">
+              in Zhejiang Overseas Interactive Exhibition
+            </div>
+          </NuxtLink>
         </div>
         <div class="header-top-right">
           <div class="header-top-right-item">
@@ -34,7 +36,7 @@
           <div>
             <NuxtLink to="/Craft">Craft and Collectibles</NuxtLink>
           </div>
-          <div>            
+          <div>
             <NuxtLink to="/Artists">Artists</NuxtLink>
           </div>
           <div>Support us</div>
