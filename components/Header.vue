@@ -15,9 +15,11 @@
           </div>
           <div class="header-top-right-item">
             <img src="~/assets/images/icon_donate.png" class="header-icon" />
-            Donate
+            <NuxtLink to="/Donate">Donate</NuxtLink>
           </div>
-          <div class="header-top-right-item">Sign in</div>
+          <div class="header-top-right-item">
+            <NuxtLink to="/">Sign in</NuxtLink>
+          </div>
         </div>
       </div>
       <hr class="hr" />
@@ -29,18 +31,18 @@
         </div>
         <div class="header-bottom-right">
           <div>Visit</div>
-          <div>Craft and Collectibles</div>
-          <div>Artists</div>
+          <div>
+            <NuxtLink to="/Craft">Craft and Collectibles</NuxtLink>
+          </div>
+          <div>            
+            <NuxtLink to="/Artists">Artists</NuxtLink>
+          </div>
           <div>Support us</div>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
 
 <style lang="less">
 @import '~/assets/style/common.less';
