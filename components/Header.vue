@@ -18,7 +18,7 @@
             <NuxtLink to="/Donate">Donate</NuxtLink>
           </div>
           <div class="header-top-right-item">
-            <NuxtLink to="/">Sign in</NuxtLink>
+            <NuxtLink to="/HomePage">Sign in</NuxtLink>
           </div>
         </div>
       </div>
