@@ -103,14 +103,24 @@
           </div>
         </div>
       </div>
-
-      <div class="homePage-row">
-        <div>Crafting process demonstration</div>
-        <div>
-          <img src="~/assets/images/Homepage/9.1.png" />
-          <img src="~/assets/images/Homepage/9.2.png" />
-          <img src="~/assets/images/Homepage/9.3.png" />
-        </div>
+    </div>
+    <div class="homePage-footer">
+      <div class="homePage-footer-title w-600px">
+        Crafting process demonstration
+      </div>
+      <div class="homePage-footer-image">
+        <img
+          src="~/assets/images/Homepage/9.1.png"
+          class="homePage-footer-image-item"
+        />
+        <img
+          src="~/assets/images/Homepage/9.2.png"
+          class="homePage-footer-image-item"
+        />
+        <img
+          src="~/assets/images/Homepage/9.3.png"
+          class="homePage-footer-image-item"
+        />
       </div>
     </div>
   </div>
@@ -248,6 +258,26 @@
         padding-left: 18px;
       }
     }
+  }
+}
+.homePage-footer {
+  margin-top: 150px;
+  background: #d8d2c3;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  .homePage-footer-title {
+    margin: 55px 0;
+    font-family: 'Big Shoulders Stencil Display';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 105%;
+
+    text-align: center;
+    letter-spacing: -0.025em;
+
+    color: #454033;
   }
 }
 </style>
