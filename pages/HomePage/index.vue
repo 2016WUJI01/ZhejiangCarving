@@ -89,7 +89,21 @@
           </div>
         </div>
       </div>
-      <div>Sign up to our newsletters</div>
+      <div class="homePage-row">
+        <div class="homePage-row-signUp">
+          <div class="homePage-row-signUp-left w-500px">
+            Sign up to our newsletters
+          </div>
+          <div class="homePage-row-signUp-right w-500px">
+            <div class="homePage-row-signUp-right-header">
+              Stay connected and receive all our latest news, online events and
+              ways to visit the Museum from home.
+            </div>
+            <div class="homePage-row-signUp-right-footer">Sign up</div>
+          </div>
+        </div>
+      </div>
+
       <div class="homePage-row">
         <div>Crafting process demonstration</div>
         <div>
@@ -124,16 +138,17 @@
   border: 1px solid #cfc19a;
   display: inline-block;
   margin-bottom: 130px;
+
   .homePage-introduction-left {
     .float-left;
     .font-BigShouldersDisplay;
-    font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 77px;
     letter-spacing: -0.02em;
     color: #454033;
   }
+
   .homePage-introduction-right {
     .float-right;
     .font-RobotoSlab;
@@ -153,35 +168,84 @@
 .homePage-row {
   .homePage-row-title {
     .font-BigShouldersDisplay;
-    font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 57px;
     color: #454033;
   }
+
   .homePage-row-artist {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    margin: 80px 0px;
+
     .homePage-row-artist-item {
       width: 24%;
       display: flex;
       flex-direction: column;
       place-content: center;
       place-items: center;
+
       .homePage-row-artist-item-avatar {
         width: 100%;
         border-radius: 50%;
         margin-bottom: 50px;
       }
+
       .homePage-row-artist-item-name {
         .font-RobotoSlab;
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
-
         color: #454033;
+      }
+    }
+  }
+
+  .homePage-row-signUp {
+    display: inline-block;
+    border: 1px solid #cfc19a;
+    width: 100%;
+    padding: 20px 25px 5px 25px;
+    .homePage-row-signUp-left {
+      .float-left;
+      .font-BigShouldersDisplay;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 77px;
+      letter-spacing: -0.02em;
+      color: #454033;
+    }
+    .homePage-row-signUp-right {
+      .float-right;
+      .homePage-row-signUp-right-header {
+        .font-RobotoSlab;
+        .float-right;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+        color: #454033;
+      }
+      .homePage-row-signUp-right-footer {
+        .float-right;
+
+        width: 300px;
+        height: 54px;
+        background: #c7b8a1;
+        margin-top: 25px;
+        text-align: left;
+        font-family: 'Big Shoulders Text';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 54px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        padding-left: 18px;
       }
     }
   }
