@@ -1,5 +1,6 @@
 <template>
   <div>Qingtian</div>
+  <ViewProcess></ViewProcess>
 </template>
 
 <style lang="less">
