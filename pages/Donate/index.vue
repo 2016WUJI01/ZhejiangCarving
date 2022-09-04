@@ -4,13 +4,15 @@
 
     <div class="container">
       <div class="donate-left float-left">
-        <div>Donor clause</div>
-        <div>
+        <div class="donate-title">Donor clause</div>
+        <br />
+        <div class="donate-subheadings">
           Donors are requested to read the following terms and conditions
           carefully, once donated, no refunds will be given. Thank you for your
           donation.
         </div>
-        <div>
+        <br />
+        <div class="donate-context">
           <div>
             1. The house gifted by the donor must be the legal property owned by
             the donor personally. If the donor gift of housing belongs to the
@@ -18,6 +20,7 @@
             gift contract with the spouse (or other) and jointly apply for
             notarization or obtain the written consent of the co-owners.
           </div>
+          <br />
           <div>
             2. the signing of the gift contract must be voluntary, must be the
             true intention, if because of malicious collusion or by fraud,
@@ -25,12 +28,14 @@
             to the gift contract is invalid, the notary can revoke the notary
             certificate.
           </div>
+          <br />
           <div>
             3. The applicant shall not use the signing of the gift contract to
             avoid taxation or to fulfil other legal obligations; otherwise, the
             applicant shall bear the losses and consequences arising therefrom.
             The notary public may revoke the notarial certificate.
           </div>
+          <br />
           <div>
             4. If the true intention of the donor is to give the donated house
             to the donee only as personal property and not as the common
@@ -39,6 +44,7 @@
             property of the donee and not as the common property of the donee
             and his spouse" into the The gift contract.
           </div>
+          <br />
           <div>
             5. after the receipt of the notary certificate of the gift contract,
             the need to register the transfer procedures to the relevant
@@ -49,6 +55,7 @@
             transfer registration procedures in a timely manner, once the
             unforeseen consequences by the parties themselves responsible.
           </div>
+          <br />
           <div>
             6. If the property is gifted to a minor, the guardian may not
             dispose of the property after the gift except for the benefit of the
@@ -57,14 +64,14 @@
         </div>
       </div>
       <div class="donate-right float-right">
-        <div>Contact us</div>
+        <div class="donate-title-2">Contact us</div>
         <hr />
-        <div>
+        <div class="donate-subheadings-2">
           For more information about Carved Crafts：
           email：2022浙江雕刻艺术@Donate.com
         </div>
-        <div>Donate now</div>
-        <div>Donation Certification</div>
+        <div class="donate-link">Donate now</div>
+        <div class="donate-link">Donation Certification</div>
       </div>
     </div>
   </div>
@@ -78,6 +85,51 @@
     width: 100%;
   }
 }
+.donate-title {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+.donate-title-2 {
+  font-family: 'Big Shoulders Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #525252;
+}
+.donate-subheadings {
+  width: 576px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+.donate-subheadings-2 {
+  width: 377px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #525252;
+}
+.donate-context {
+  width: 576px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #454033;
+}
+.donate-link {
+}
 .donate-left,
 .donate-right {
   width: 45%;
@@ -87,5 +139,17 @@
 }
 .donate-right {
   margin-left: 5%;
+}
+.donate-left {
+  margin: 0 auto;
+  width: 50%;
+  padding: 50px 0;
+  background-color: aliceblue;
+}
+.donate-right {
+  margin: 0 auto;
+  width: 50%;
+  padding: 50px 0;
+  background-color: aliceblue;
 }
 </style>
