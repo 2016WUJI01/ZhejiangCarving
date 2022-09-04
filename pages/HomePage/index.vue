@@ -58,6 +58,36 @@
       </div>
       <div class="homePage-row">
         <div class="homePage-row-title">Introduction of the artist</div>
+        <div class="homePage-row-artist">
+          <div class="homePage-row-artist-item">
+            <img
+              src="~/assets/images/Homepage/8.1.png"
+              class="homePage-row-artist-item-avatar"
+            />
+            <div class="homePage-row-artist-item-name">Chen Gai Hong</div>
+          </div>
+          <div class="homePage-row-artist-item">
+            <img
+              src="~/assets/images/Homepage/8.2.png"
+              class="homePage-row-artist-item-avatar"
+            />
+            <div class="homePage-row-artist-item-name">Li Xiaodong</div>
+          </div>
+          <div class="homePage-row-artist-item">
+            <img
+              src="~/assets/images/Homepage/8.3.png"
+              class="homePage-row-artist-item-avatar"
+            />
+            <div class="homePage-row-artist-item-name">Wong Choi Leung</div>
+          </div>
+          <div class="homePage-row-artist-item">
+            <img
+              src="~/assets/images/Homepage/8.4.png"
+              class="homePage-row-artist-item-avatar"
+            />
+            <div class="homePage-row-artist-item-name">Chen Mingwei</div>
+          </div>
+        </div>
       </div>
       <div>Sign up to our newsletters</div>
       <div class="homePage-row">
@@ -128,6 +158,32 @@
     font-size: 48px;
     line-height: 57px;
     color: #454033;
+  }
+  .homePage-row-artist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    .homePage-row-artist-item {
+      width: 24%;
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      place-items: center;
+      .homePage-row-artist-item-avatar {
+        width: 100%;
+        border-radius: 50%;
+        margin-bottom: 50px;
+      }
+      .homePage-row-artist-item-name {
+        .font-RobotoSlab;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: #454033;
+      }
+    }
   }
 }
 </style>
