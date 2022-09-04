@@ -2,7 +2,7 @@
   <div>
     <div class="row-image"><img src="~/assets/images/Donate/1.png" /></div>
 
-    <div class="container">
+    <div class="donate-container">
       <div class="donate-left float-left">
         <div class="donate-title">Donor clause</div>
         <br />
@@ -85,6 +85,11 @@
     width: 100%;
   }
 }
+.donate-container {
+  width: 100%;
+  height: 1200px;
+  // background: #d0d1d0;
+}
 .donate-title {
   font-family: 'Big Shoulders Display';
   font-style: normal;
@@ -141,15 +146,13 @@
   margin-left: 5%;
 }
 .donate-left {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 0 0 124px;
+  width: 30%;
   padding: 50px 0;
-  background-color: aliceblue;
 }
 .donate-right {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 124px 0 0;
+  width: 30%;
   padding: 50px 0;
-  background-color: aliceblue;
 }
 </style>
