@@ -13,52 +13,54 @@
     </div>
     <div class="container">
       <div class="homePage-introduction">
-        <div class="float-left w-600px homePage-introduction-left">
+        <div class="homePage-introduction-left w-600px">
           Discover the cultural charm of Zhejiang carving art
         </div>
-        <div class="float-right">
-          <div>Feel free to visit and browse</div>
-          <div>
+        <div class="homePage-introduction-right">
+          <div class="homePage-introduction-right-title w-500px">
+            Feel free to visit and browse
+          </div>
+          <br />
+          <div class="homePage-introduction-right-text">
             <div>Time: 00:00~24:00</div>
             <div>Crowd: All people</div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div>Carving Art Categories</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Carving Art Categories</div>
         <div></div>
       </div>
-      <div>
-        <div>DongYang Wood Carving</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">DongYang Wood Carving</div>
         <hr />
         <div></div>
       </div>
-      <div>
-        <div>Gold Lacquer Painted Wood Carving</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Gold Lacquer Painted Wood Carving</div>
         <hr />
         <div></div>
       </div>
-      <div>
-        <div>Bone Inlay Wood Carving</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Bone Inlay Wood Carving</div>
         <hr />
         <div></div>
       </div>
-      <div>
-        <div>Mud Gold Lacquerware</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Mud Gold Lacquerware</div>
         <hr />
         <div></div>
       </div>
-      <div>
-        <div>Qingtian sculpture</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Qingtian sculpture</div>
         <hr />
         <div></div>
       </div>
-      <div>
-        <div>Introduction of the artist</div>
-        <div>艺术家</div>
-        <div>文字框</div>
+      <div class="homePage-row">
+        <div class="homePage-row-title">Introduction of the artist</div>
       </div>
-      <div>
+      <div>Sign up to our newsletters</div>
+      <div class="homePage-row">
         <div>Crafting process demonstration</div>
         <div>
           <img src="~/assets/images/Homepage/9.1.png" />
@@ -88,13 +90,43 @@
 }
 
 .homePage-introduction {
+  width: 100%;
+  border: 1px solid #cfc19a;
+  display: inline-block;
+  margin-bottom: 130px;
   .homePage-introduction-left {
-    font-family: 'Big Shoulders Display';
+    .float-left;
+    .font-BigShouldersDisplay;
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 77px;
     letter-spacing: -0.02em;
+    color: #454033;
+  }
+  .homePage-introduction-right {
+    .float-right;
+    .font-RobotoSlab;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: right;
+
+    .homePage-introduction-right-title {
+      font-weight: 700;
+    }
+    .homePage-introduction-right-text {
+      font-weight: 400;
+    }
+  }
+}
+
+.homePage-row {
+  .homePage-row-title {
+    .font-BigShouldersDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
     color: #454033;
   }
 }
