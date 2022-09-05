@@ -2,11 +2,11 @@
   <div>
     <div class="row-image"><img src="~/assets/images/Donate/1.png" /></div>
 
-    <div class="donate-container">
-      <div class="donate-left float-left">
-        <div class="donate-title">Donor clause</div>
+    <div class="donate-container craft-row container">
+      <div class="craft-row-item float-left">
+        <div class="donate-title donate-title-left">Donor clause</div>
         <br />
-        <div class="donate-subheadings">
+        <div class="donate-introduction donate-introduction-left">
           Donors are requested to read the following terms and conditions
           carefully, once donated, no refunds will be given. Thank you for your
           donation.
@@ -63,10 +63,10 @@
           </div>
         </div>
       </div>
-      <div class="donate-right float-right">
-        <div class="donate-title-2">Contact us</div>
+      <div class="craft-row-item float-right">
+        <div class="donate-title donate-title-right">Contact us</div>
         <hr />
-        <div class="donate-subheadings-2">
+        <div class="donate-introduction donate-introduction-right">
           For more information about Carved Crafts：
           email：2022浙江雕刻艺术@Donate.com
         </div>
@@ -85,74 +85,42 @@
     width: 100%;
   }
 }
-.donate-container {
-  width: 100%;
-  height: 1200px;
-  // background: #d0d1d0;
-}
-.donate-title {
-  font-family: 'Big Shoulders Display';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 43px;
-  color: #000000;
-}
-.donate-title-2 {
-  font-family: 'Big Shoulders Display';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 43px;
-  color: #525252;
-}
-.donate-subheadings {
-  width: 576px;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-}
-.donate-subheadings-2 {
-  width: 377px;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #525252;
-}
-.donate-context {
-  width: 576px;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  color: #454033;
-}
-.donate-link {
-}
-.donate-left,
-.donate-right {
-  width: 45%;
-}
-.donate-left {
-  margin-right: 5%;
-}
-.donate-right {
-  margin-left: 5%;
-}
-.donate-left {
-  margin: 0 0 0 124px;
-  width: 30%;
-  padding: 50px 0;
-}
-.donate-right {
-  margin: 0 124px 0 0;
-  width: 30%;
-  padding: 50px 0;
+
+.craft-row-item {
+  .donate-title {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+  }
+
+  .donate-title-right {
+    color: #525252;
+  }
+  .donate-introduction {
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .donate-introduction-left {
+    width: 576px;
+    font-weight: 700;
+  }
+  .donate-introduction-right {
+    width: 377px;
+    font-weight: 400;
+    color: #525252;
+  }
+  .donate-context {
+    width: 576px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #454033;
+  }
 }
 </style>
