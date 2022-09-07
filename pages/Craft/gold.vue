@@ -1,5 +1,6 @@
 <template>
   <div>gold</div>
+  <div></div>
   <ViewProcess></ViewProcess>
 </template>
 
