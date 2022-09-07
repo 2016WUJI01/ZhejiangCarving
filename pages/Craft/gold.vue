@@ -1,5 +1,5 @@
 <template>
-  <div><img src="~/assets/images/朱金漆木雕/1.png" class="w-full" /></div>
+  <img src="~/assets/images/朱金漆木雕/1.png" class="w-full" />
   <div class="gold-row gold-row-background">
     <div class="container craft-row">
       <div class="craft-row-item gold-headline-left">
